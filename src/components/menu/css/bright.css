@@ -1,0 +1,16 @@
+body{
+    background-image: url("../../../assets/background.jpg");
+
+}
+
+a:link {
+    color: #1162e6;
+  }
+  
+a:visited {
+    color: #1162e6;
+}
+
+button[type=submit] {
+    background-color: #1162e6;
+}

@@ -1,0 +1,22 @@
+create database Warcaby;
+use Warcaby;
+
+create Table Users(
+	Id int not null AUTO_INCREMENT,
+	Email varchar(30) not null,
+	Nick varchar(20) not null,
+	Password nvarchar(60) not null,
+	Wins int not null,
+	Lost int not null,
+	PRIMARY KEY (Id)
+);
+
+create table GameRooms(
+	Id int not null AUTO_INCREMENT,
+	RoomName varchar(25) not null,
+	Player1Id int,
+	Player2Id int,
+	foreign key (Player1Id) references Users(Id),
+	foreign key (Player2Id) references Users(Id),
+	PRIMARY KEY (Id)
+);

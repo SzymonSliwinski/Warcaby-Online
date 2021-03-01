@@ -1,0 +1,138 @@
+@media (min-width: 320px) {
+    table{
+        width: 240px;
+        height: 240px;
+        border: 5px solid gray;
+    }
+    .black{
+        width:12.5%;
+        height:12.5%;
+    }
+    .white{
+        width:12.5%;
+        height:12.5%;
+    }
+    .black-player-field{ 
+        width: 60px;
+    }
+    .white-player-field{
+        width: 60px;
+    }
+
+}
+
+@media (min-width: 640px) {
+    table{
+        width: 480px;
+        height: 480px;
+        border: 10px solid gray;
+    }
+    .black{
+        width:12.5%;
+        height:12.5%;
+    }
+    .white{
+        width:12.5%;
+        height:12.5%;
+    }
+    .black-player-field{ 
+        width: 100px;
+    }
+    .white-player-field{
+        width: 100px;
+    }  
+}
+
+@media (min-width: 1024px) {
+    table{
+        border: 15px solid gray;
+        width: 720px;
+        height: 720px;
+    }
+    .black{
+        width:12.5%;
+        height:12.5%;
+    }
+    .white {
+        width:12.5%;
+        height:12.5%;
+    }
+    .black-player-field{ 
+        width: 140px;
+    }
+    .white-player-field{
+        width: 140px;
+    }
+    
+}
+
+body{
+    background-image: url("../../../assets/background.jpg");
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.black-checker{
+    content:url("../../../assets/red.png");
+    width: 97%;
+    height: 97%;
+}
+
+.player-container {
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    background: #5c5c5c;
+    color: white;
+    top: 50%;
+    left: 10%;
+}
+
+.white-checker{
+    content:url("../../../assets/white.png");
+    width: 97%;
+    height: 97%;
+}
+.white-queen-checker{
+    content:url("../../../assets/white-queen.png");
+    width: 97%;
+    height: 97%;
+}
+.black-queen-checker{
+    content:url("../../../assets/red-queen.png");
+    width: 97%;
+    height: 97%;
+}
+#board-container {
+    position: relative;
+    border: 20px solid #333;
+    margin: 0 auto;
+}
+
+.black {
+    background-color: rgb(54, 52, 52);
+    text-align:center;
+}
+
+.white {
+    background-color: #fff;
+    text-align:center;
+}
+
+.white-player-field { 
+    font-size: 18px;
+}
+.black-player-field {
+    color: red;
+    font-size: 18px;
+
+}

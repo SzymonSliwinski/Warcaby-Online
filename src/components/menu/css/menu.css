@@ -1,0 +1,136 @@
+@media (min-width: 320px) {
+    .container {width: 150px;}
+    input[type=text], input[type=password] {width: 90px; }
+    .toolbar{width: 50px;}
+
+}
+
+@media (min-width: 640px) {
+    .container {width: 300px;}
+    input[type=text], input[type=password] {width: 190px; }
+    .toolbar{width: 100px;}
+}
+
+@media (min-width: 1024px) {
+    .container {width: 470px;}
+    input[type=text], input[type=password] {width: 350px; }
+    .toolbar{width: 250px;}
+
+}
+
+.container {
+    height: 70%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px;
+    padding: 10px;
+
+}
+body {
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align:center;
+  }
+
+button[type=submit] {
+    background-color: #1162e6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#font-changer-small{
+    font-size: 10px;
+    cursor: pointer;
+    display:inline;
+
+}
+#font-changer-big{
+    font-size: 16px;
+    cursor: pointer;
+    display:inline;
+}
+
+#bright-theme, #dark-theme{
+    font-size: 10px;
+    cursor: pointer;
+    display:inline;
+    padding: 1px;
+
+}
+
+#bright-theme{
+    background-color: white;
+    padding: 1px;
+}
+
+#dark-theme{
+    background-color: black;
+    padding: 1px;
+    color: black;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+
+.toolbar {
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    background: #5c5c5c;
+    color: white;
+}
+
+#logout{
+    color:#b3b0b0
+}
+
+.existing-room-alert{
+    color:red;
+}
+
+img{
+    width:16px;
+    height: 16px;
+    cursor: pointer;
+
+}
+
+.languages{
+    padding-top : 10px;
+
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.rooms-container{
+    position: relative;
+    height: 60%;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+
+}

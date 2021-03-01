@@ -1,0 +1,15 @@
+body{
+    background-image: url("../../../assets/dark.jpg");
+}
+
+
+a:link {
+    color: #24860c;
+  }
+  
+a:visited {
+    color: #24860c;
+}
+button[type=submit] {
+    background-color: #24860c;
+}

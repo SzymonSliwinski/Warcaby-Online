@@ -1,0 +1,65 @@
+@media (min-width: 320px) {
+    .container {width: 150px;}
+    input[type=text], input[type=password] {width: 90px; }
+}
+
+@media (min-width: 640px) {
+    .container {width: 300px;}
+    input[type=text], input[type=password] {width: 190px; }
+}
+
+@media (min-width: 1024px) {
+    .container {width: 470px;}
+    input[type=text], input[type=password] {width: 350px; }
+}
+
+
+.container {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px;
+    padding: 10px;
+}
+body {
+    text-align: center;
+    background-image: url("../../assets/background.jpg");
+}
+
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+button[type=submit] {
+    background-color: #1162e6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+a:link {
+    color: #1162e6;
+  }
+  
+a:visited {
+    color: #1162e6;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+
+#failed {
+    color: red;
+}

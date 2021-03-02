@@ -1,7 +1,7 @@
 # Warcaby
 
 #### Opis
- Klasyczna gra w warcaby umożliwiająca rozgrywkę dwóm osobom w czasie rzeczywistym.
+ Klasyczna aplikacja do gry w warcaby umożliwiająca rozgrywkę dwóm osobom w czasie rzeczywistym.
 
 #### Funkcjonalności
  * logika gry w warcaby
